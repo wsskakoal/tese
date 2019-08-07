@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 include('verifica_login.php');
 ?>
@@ -8,6 +8,7 @@ include('verifica_login.php');
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Empório Do Seu João</title>
+    
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -44,7 +45,7 @@ include('verifica_login.php');
     <div class="wrapper">
         <header class="main-header">
             <!-- Logo -->
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
                 <span class="logo-mini"><b>Empório</b></span>
                 <!-- logo for regular state and mobile devices -->
@@ -210,7 +211,7 @@ include('verifica_login.php');
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="cadastroprodutos.php"><i class="fa fa-circle-o"></i> Cadastro De Produto</a></li>
+                            <li><a href="cadproduto.php"><i class="fa fa-circle-o"></i> Cadastro De Produto</a></li>
                             <li><a href="cadcliente.php"><i class="fa fa-circle-o"></i> Cadastro De Cliente</a></li>
                             <li><a href="cadfornecedor.php"><i class="fa fa-circle-o"></i> Cadastro De Fornecedor</a></li>
                             <li><a href="cadusuario.php"><i class="fa fa-circle-o"></i> Cadastro De Administrador</a></li>
@@ -305,7 +306,7 @@ include('verifica_login.php');
                             <div class="icon">
                                 <i class="ion ion-bag"></i>
                             </div>
-                            <a href="cadastroprodutos.php" class="small-box-footer">Cadastro De Produtos<i class="fa fa-arrow-circle-right"></i></a>
+                            <a href="cadproduto.php" class="small-box-footer">Cadastro De Produtos<i class="fa fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
                     <!-- ./col -->
@@ -352,19 +353,7 @@ include('verifica_login.php');
                     </div>
                     <!-- ./col -->
                 </div>
-				      <div class="box bg-red align-items-center">
 
-
-
-
-
-
-
-
-
-
-
-					</div>
 
         </div>
         <!-- /.row -->
